@@ -458,6 +458,36 @@
     }
 
     .contact-val:hover { color: var(--tan); }
+ @media (max-width: 768px) {
+  .section {
+    padding: 40px 24px;
+  }
+
+  .pillars-grid,
+  .stats-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+  }
+
+  .pillar,
+  .stat-cell {
+    width: 100%;
+  }
+
+  .stat-num {
+    font-size: 32px !important;
+  }
+
+  .tag {
+    font-size: 22px;
+  }
+
+  p,
+  li {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+} 
   </style>
 </head>
 <body>
